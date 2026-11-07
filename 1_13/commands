@@ -1,0 +1,2 @@
+docker build -t golang-project .
+docker run -d -p 8080:8080 golang-project
